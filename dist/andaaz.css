@@ -35,9 +35,9 @@ header #button-house {
 }
 header #button-house .toggle {
   text-align: center;
-  background-color: coral;
   padding: 5px;
   font-size: 0.7em;
+  background-color: coral;
   border: 2px solid #000000;
   border-left: none;
 }
@@ -59,6 +59,11 @@ header #button-house #output {
 }
 header #button-house #output:hover {
   background-color: #fcff4d;
+}
+
+.color {
+  background-color: #ffffff30 !important;
+  filter: blur(0.3px);
 }
 
 #code_container {

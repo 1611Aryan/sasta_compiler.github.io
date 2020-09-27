@@ -36,9 +36,9 @@ header {
 
         .toggle {
             text-align: center;
-            background-color: coral;
             padding: 5px;
             font-size: 0.7em;
+            background-color: coral;
             border: 2px solid #000000;
             border-left: none;
         }
@@ -68,7 +68,10 @@ header {
         }
     }
 }
-
+.color{
+    background-color:#ffffff30 !important;
+    filter:blur(0.3px);
+}
 #code_container {
     position: absolute;
     left: 0;

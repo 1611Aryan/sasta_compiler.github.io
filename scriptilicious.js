@@ -1,18 +1,22 @@
 //Making the html disappear
 $('#html').click(function () {
     $('#first').toggle("swing");
+    $('#html').toggleClass('color');
 });
 //Making the css disappear
 $('#css').click(function () {
     $('#second').toggle("swing");
+    $('#css').toggleClass('color');
 });
 //Making the js disappear
 $('#js').click(function () {
     $('#third').toggle("swing");
+    $('#js').toggleClass('color');
 });
 //Making the output disappear
 $('#output').click(function () {
     $('#fourth').toggle("swing");
+    $('#output').toggleClass('color');
 });
 
 //function to add css js and html in the iframe
@@ -36,3 +40,4 @@ $('#third').on('change keyup focus paste', function () {
 window.onload = function () {
     output();
 };
+
